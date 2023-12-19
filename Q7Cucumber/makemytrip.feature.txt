@@ -1,0 +1,11 @@
+Feature: Flight search on MakeMyTrip
+
+Scenario: Search for flights from Hyderabad to Chennai
+  Given I am on the MakeMyTrip homepage
+  When I select ROUND TROP
+  And I enter HYD as the from location
+  And I enter MAA as the to location
+  And I select a departure date
+  And I select a return date
+  And I click on the search button
+  Then I should see the search page displayed as expected

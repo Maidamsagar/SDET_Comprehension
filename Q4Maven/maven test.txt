@@ -1,0 +1,6 @@
+1.mvn clean package
+// to run java codes/projects
+2.java -cp target/my-maven-project-1.0-SNAPSHOT.jar com.example.Problem1
+3.java target/my-maven-project-1.0-SNAPSHOT.jar com.example.Problem2
+// to run the compile
+4.mvn test
